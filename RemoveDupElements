@@ -1,0 +1,66 @@
+// code by Ponnam Jay
+
+package pj.logical.interview;
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+public class RemoveDupElements {
+
+	// int array
+	public static void removeDup() {
+		int[] a = { 10, 20, 30, 40, 50, 20, 30 };
+		Set<Integer> s = new LinkedHashSet<>();
+		for (int i : a) {
+			s.add(i);
+		}
+		System.out.println(s);
+
+	}
+
+	// String array duplicates charaters removing 
+	public static void removeDupString(String s) {
+		System.out.println(s);
+		char[] ch = s.toCharArray();
+		Set<Character> set = new LinkedHashSet<>();
+		for (Character chr : ch) {
+			set.add(chr);
+
+		}
+		System.out.println(set);
+		StringBuilder sb = new StringBuilder();
+		for (Character ca : set) {
+			sb.append(ca);
+
+		}
+		System.out.println(sb.toString());
+
+	}
+	
+	public static void removStringArr(String[] s)
+	{
+		Set<String> set= new LinkedHashSet<>();
+		for(String sa:s)
+		{
+			set.add(sa);
+		}
+		System.out.println(set);
+	}
+
+	public static void main(String[] args) {
+		removeDup();
+		String str = "testjayjayjava";
+		removeDupString(str);
+		String [] st= {"abc","cde","abc"};
+				
+		removStringArr(st);
+	}
+}
+
+/*output:
+---------
+[10, 20, 30, 40, 50]
+testjayjayjava
+[t, e, s, j, a, y, v]
+tesjayv
+[abc, cde]  */
+
