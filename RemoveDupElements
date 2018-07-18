@@ -1,5 +1,7 @@
 // code by Ponnam Jay
 
+// this is famous interview question 
+
 package pj.logical.interview;
 import java.util.LinkedHashSet;
 import java.util.Set;
