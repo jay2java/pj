@@ -1,0 +1,213 @@
+=======================================================================================================================================================================================================================================================
+                                 /* Copy righted to PONNAM JAY 
+NOTE: This questions in my life where i attended to interview in chennai,pune,hyderabad,bangalore,in the year of 2014 to 2018 
+DO NOT REPRODUCE ANY WEBSITES / SOCIAL NETWORKING SITES. In case of still you want write a mail to
+jay2java@writeme.com  and take a permission and mention in subject line REUSE PERMISSION. When u will get permission accepted mail
+after u can publish anywhere and make sure u have to mention source from: PONNAM JAY where you are going to reproducing. */
+
+=======================================================================================================================================================================================================================================================  
+
+11 KEY POINTS TO SUCCESS JAVA INTERVIEW 
+                                     - PONNAM JAY.
+-----------------------------------------------------------------------------------------------------
+1.prepare code snippets.
+   
+   example:
+
+   which of the following option is correct?
+   a)true
+   b)false
+   c)none
+
+   class Test
+          { 
+		----
+                ---
+              String s1="JAY";
+              String s2= new String("JAY");
+              System.out.println(s1.equals(s2));
+
+          }
+
+2.prepare concepts like 1)Oops 
+                        2)Strings
+                        3)Exception Handling
+              		4)Collections
+			5)Multithreading
+			6)Files
+
+3.prepare annotaions in frameworks like spring,hibernate,restful webservices annotions.
+
+  ex: @Controller  @RestController  @autowired  @Entity   
+
+  etc.
+
+4.preapre basics of SQL/ANY one of the DATABASE.
+
+5.prepare project architecture and flow.
+
+6.practice logical mathemetical/ java logical programming questions.  
+
+7.prepare self introduction at home/hostel.
+
+8.prepare nice resume/CV for related interview and whatever u mention that u should be awareness.
+
+9.Relax and be confidence you will certainly crack java interview think in your mind positive way.
+
+10.Think like this before going to interview , whatever i'll say to interviewer that is correct and interviwer does n't know anything. THis is the psychological trick.
+    Then your tenction is far away from you.
+
+11.make sure after interview when ever reached your home/hostel just write down questions and try to analysis that questions and prepare again same day.
+      
+      
+
+----------
+ CORE JAVA
+ ----------
+ 1.Oops concept ? briefly explian programaticaly in java?
+ 2.what is the differnce between interface and abstract class?
+ 3.JVM Architecture?
+ 4.Why String is immutable?
+ 5.why object is super class of all classes in java?
+ 6.Write a program to file data copy to another program?
+ 7.Where you use in your project oops conepts applied?
+ 8.what is differnce between string and stringbuffer and string builder?
+ 9.explian Exception hirarchy?
+ 10.how do you create custom exception?
+ 11.what is the differ b/w arrays and collections?
+ 12.how do you write a program thread safe?
+ 13.write a program wait and notify example?
+ 14.what is differnce between arraylist and linked list ?
+ 15.what is differnce b/w arraylist and vector?
+ 16.what is diifernce b/w collections and collection?
+ 17.how do you iterate hashmap ? write a example program on hashmap?
+ 18.what is differnce b/w hasmap and hashtable?
+ 19.what is the new concepts of jdk1.5,jdk1.6,jdk1.7 and jdk1.8? 
+ 20.is support multiple inheritance in java? 
+ 21.print the  2nd word in your name using string? EX:info brain - o/p: brain
+ 22.what is serialization? Explain?
+ 23.JVM architecture?
+ 24.how do you make immutable class?
+ 25.why multithreading?
+ 26.what is the concept of exception handling in case of overriding ?
+ 27.why object is super class of all classes.
+ 28.what is the SID in serialization ? how you implemented serialization and differnce between serialization and externalization.
+ 29.what is I18N ? 
+ ------------------------------------------------------------------------------------------
+
+ --------------
+ Advanced Java:
+ --------------
+ 1.how to communicate one servlet to another servlet?
+ 2.what is the differnce b/w jsp include action and include directive?
+ 3.what is the difference b/w and forward action in jsp and sendRedirect in servlet?
+ 4.what is the differnce b/w servlet config and servletcontext?
+ 5.write code for type 4 connection of JDBC?
+ 6.how to get seesion object?
+ 7.what is the session tracking mechanism? how many ways to handle in java?
+ 8.jsp implicit objects?
+ 9.a)write a program registration page with the fields of employee; first name , last name,
+   email , mobile no, adreess and with validation. use Servlets/JSP?
+   b) ritrieve the data from the database in the tabler form. 
+ 10.what is diff b/w type-IV driver and to other driver?
+ ------------------------------------------------------------------------------------------
+ PROJECT questions:
+ ------------------
+ 1. where do you implement in your project interface?
+ 2. did u use collections in your project?
+ 3. did u applied threads in your project if applied where u applied?
+ 4. explain your project architecture (gui and ide architecture u developed code)?
+ 5. what are tools u used in ur project? 
+
+   - about the project definitely asking question...... !
+ ------------------------------------------------------------------------------------------ 
+ ----------  
+ Hibernate: 
+ ---------- 
+ 1.what is the difference b/w get() and load()?
+ 2.what is the difernce b/w merge() and save/persist()?
+ 3.what is the core interface of hibernate?
+ 4.how many configration files implemented in your project?
+ 5.how many mapping files create in your projects?
+ 6.what is lazy loading?
+ 7.how do you retrive multiple values retriving from database (bulk opertion)?
+ 8.write a program to one to many relationship?
+ 9.how many types of inheritence in hibernate?
+ 10.what is pagination?
+ 11.what are annotaions used in your hibernate project?
+ 12.how many states in hibernate?
+ 13.The two seesions create ? program... and values aare update or not?
+ 14.many to many in hibernte ? ho do you implement with example?
+
+ - every interviewer asked about annotations in hibernate .......!    
+---------------------------------------------------------------------------------------------
+ -------
+ Spring
+ ---------------------------------------------------------------------------------------------
+ 1.bean life cycle explain?
+ 2.bean scopes?
+ 3.what is the dependency injection?
+ 4.what is the inner bean how do you configure in xml?
+ 5.what is the use of @qualifier @required @repository ?
+ 6.what is autowiring?
+ 7.what is the differnce b/w beanfactory and application context?
+ 8.what is the AOP and use?
+ 9.explain spring MVC architecture?
+ 10.how do u integrating spring and hibernate in your project?
+ 11.what is the difference between setter injection and construction injection?
+ 
+ - every interviewer asked about annotations in spring.......!    
+------------------------------------------------------------------------------------------------
+-------------
+Web Services
+-------------
+ 1.how do you provide security in rest web service?
+ 2.what is the difference b/w soap & rest web services?
+ 3.write a service code how did you implement in your project?
+ 4.what is the purpose URI? in rest web Services?
+ 5.what is the difference b/w @Restcontroller and @controller.
+ 6.how do you implement service code and retun in json or xml format?  
+ 7.about status codes.like 500,404 etc...  
+
+-------------------------------------------------------------------------------------------------
+
+LOGICAL mathemtical/java logical quetions
+-----------------------------------------------------------------
+1.int [] a {10,15,10,12,14,15,36,80,100}
+    remove duplicate elements and missing integers in given array?
+2.palindrome or reverse a string or reverse a number without using predefined method?
+3.remove duplicates in a string/string array?
+4.print duplicate elements in string array or int[]?
+5.sorting ascenting/decending?
+6.fibonacci series?
+7.prime number
+8.armstrong number.
+9.factorial of a given no. using recursion
+10.biggest no in 3 numbers or lowest no's in 3 number?
+11.pattern programs(triangle,pyramid of star,pyramid of numbers)
+12.insertion sort
+13.bubble sort
+14.quick sort without using recursion
+15.merge sort.
+16.trim method how internally works in java?
+17.swapping two numbers without using 3rd variable?
+18.reverse word in a sentence for ex: input: doing iam
+                                      output: iam doing
+19.perfect number?
+
+------------------------------------------------------------------------------------
+
+ORACLE interview questions 
+---------------------------------------
+
+1.create a table with primary key and foriegn key?
+
+2.find 2nd and 5th hiegst salary in a table?
+
+3.questions asked in joins concepts?
+------------------------------------------------------------------------------------
+
+                                                                                Thank You
+                                                                                =========
+                                                                                Ponnam Jay(PJ)
+                                                                                jay2java@writeme.com
